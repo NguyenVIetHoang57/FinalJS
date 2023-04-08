@@ -1,7 +1,7 @@
 import product1 from "./assets/products/1.png";
 import product2 from "./assets/products/2.png";
 import product3 from "./assets/products/3.png";
-import product4 from "./assets/products/4.png";
+import product4 from "./assets/products/5.png";
 
 
 export const PRODUCTS = [
