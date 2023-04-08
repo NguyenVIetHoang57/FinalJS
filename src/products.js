@@ -1,7 +1,9 @@
 import product1 from "./assets/products/1.png";
 import product2 from "./assets/products/2.png";
 import product3 from "./assets/products/3.png";
-import product4 from "./assets/products/5.png";
+import product4 from "./assets/products/4.png";
+import product5 from "./assets/products/5.png";
+import product6 from "./assets/products/6.webp";
 
 
 export const PRODUCTS = [
@@ -29,7 +31,19 @@ export const PRODUCTS = [
     price: 228.0,
     productImage: product4,
   },
-
+  {
+    id: 5,
+    productName: "LED light",
+    price: 228.0,
+    productImage: product5,
+  },
+  {
+    id: 6,
+    productName: "Don't Trip Sweater",
+    price: 228.0,
+    productImage: product6,
+  },
+ 
 
 
 ];
