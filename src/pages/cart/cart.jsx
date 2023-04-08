@@ -33,13 +33,13 @@ export const Cart = () => {
           <p> Subtotal: ${totalAmount} </p>
           <button onClick={() => navigate("/product")}> Continue Shopping </button>
           <button
-            onClick={(handleCheckout) => {
+            onClick={() => {
+              handleCheckout();
               checkout();
-              navigate("/checkout");
+              navigate("/product");
             }}
           >
-            {" "}
-            Checkout{" "}
+            Checkout
           </button>
         
 
